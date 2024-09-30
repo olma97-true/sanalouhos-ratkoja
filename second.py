@@ -24,8 +24,6 @@ def check_adjacency(word_to_check: str, ik: int, jk: int, letter: str, found_wor
         pos = pos2.copy()
         for position in pos2:
             if position in visited_positions:
-                if word_to_check == "AHAA":
-                    print("AHAA")
                 adj_let.pop(pos.index(position))
                 pos.remove(position)
 
