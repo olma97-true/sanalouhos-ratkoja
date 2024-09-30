@@ -1,0 +1,3 @@
+main.py contains a solver for boggle found on https://www.geeksforgeeks.org/boggle-find-possible-words-board-characters/, modified to work on sanalouhos with the entire finnish dictionary. Searches for matrix combinations of adjacent elements in the dictionary
+
+second.py removes all words from the dictionary that cannot be considered as solutions and then searches for words from dictionary in the sanalouhos matrix. Much faster than main.py
